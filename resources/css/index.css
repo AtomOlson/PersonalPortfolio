@@ -225,7 +225,7 @@ main .headshot {
     top: 65%;
     left: 50%;
     transform: translate(-50%, 0%);
-    background-color: rgba(26, 26, 26, 0.5);
+    background-color: rgba(26, 26, 26, 0.8);
     padding: 1rem;
     border: 0 solid transparent;
     border-radius: 15px;
