@@ -1,0 +1,260 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* Tag Defaults */
+
+* {
+    background-color: transparent;
+}
+
+html {
+    font-size: 16px;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(26, 26, 26, 0);
+    font-family: 'Kulim Park', sans-serif;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: 200ms;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 1);
+    transition: 200ms;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem ;
+}
+
+.maxbounded {
+    width: 100%;
+    max-width: 1400px;
+    position: relative;
+}
+
+.centered {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.fourty {
+    max-width: 400px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.center {
+    justify-content: center;
+}
+
+.tiles img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.pad {
+    margin: 1rem;
+}
+
+.hovershadow {
+    transition: 200ms;
+    margin-top: 3px;
+}
+
+.hovershadow:hover {
+    box-shadow: 0 3px 5px #ffffff;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    transition: 200ms;
+}
+
+.round {
+    border: 0 solid transparent;
+    border-radius: 50%;
+}
+
+figure {
+    text-align: center;
+}
+
+.float {
+    background-color: #1a1a1a;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Buttons */
+
+/* Header */
+header {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+header nav li{
+    display: inline;
+}
+
+/* Main */
+
+main {
+    margin-top: 3rem;
+    width: 100%;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+main .headshot {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    border: 0 solid transparent;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.intro {
+    padding: 4rem 0;
+    color: #1a1a1a;
+}
+
+.certifications {
+    padding: 0 0 2rem 0;
+    font-size: 1.3rem;
+}
+
+.certifications a {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.certifications img {
+    width: 120px;
+    height: 120px;
+}
+
+.projects {
+    width: 100%;
+    height: 90vh;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    width: 100%;
+    height: 80%;
+    padding: 1rem 9%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+}
+
+.gallery .slider {
+    width: 99%;
+    height: 100%;
+    padding: 15px;
+    flex: none;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.gallery .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.label {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: rgba(26, 26, 26, 0.5);
+    padding: 1rem;
+    border: 0 solid transparent;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.filler {
+    width: 100%;
+    height: 30vh;
+    background-color: transparent;
+}
+
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    height: 1500px;
+    width: 100%;
+    z-index: 20;
+}
+
+/* Background */
+.parallax {
+    /* The image used */
+    background-image: url("../images/BackgroundWhite2.jpg");
+    /* Set a specific height */
+    height: 1400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: contain;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
