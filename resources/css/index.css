@@ -138,6 +138,10 @@ header nav li{
     display: inline;
 }
 
+header .maxbounded {
+    padding: 0 1rem;
+}
+
 /* Main */
 
 main {
@@ -200,7 +204,7 @@ main .headshot {
 .gallery .slider {
     width: 99%;
     height: 100%;
-    padding: 15px;
+    padding: 2%;
     flex: none;
     position: relative;
     transition: transform 0.5s;
@@ -218,7 +222,7 @@ main .headshot {
 
 .label {
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, 0%);
     background-color: rgba(26, 26, 26, 0.5);
