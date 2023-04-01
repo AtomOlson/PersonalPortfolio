@@ -142,6 +142,13 @@ header .maxbounded {
     padding: 0 1rem;
 }
 
+@media (max-width:485px){
+    header {
+        height: fit-content;
+        padding: 0.5rem 0.1rem;
+    }
+}
+
 /* Main */
 
 main {
@@ -161,6 +168,12 @@ main .headshot {
     border: 0 solid transparent;
     border-radius: 20px;
     width: 100%;
+}
+
+@media (max-width:375px) {
+    main .tile {
+        margin: 0 5%;
+    }
 }
 
 .intro {
